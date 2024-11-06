@@ -1,0 +1,781 @@
+[
+  {
+    "id": 1,
+    "depth": 1,
+    "numchild": 3,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/logo_broshi.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/broshi.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/brosh.jpg",
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": 321,
+    "product_rep_2_id": 313,
+    "c_views": 2,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 1,
+        "cg_name": "Brooches",
+        "cg_description": "Brooches general category.",
+        "cg_title": "",
+        "cg_slug": "broshi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "brooches/"
+      },
+      "ru": {
+        "id": 1,
+        "cg_name": "Броши",
+        "cg_description": "Броши общая категория.",
+        "cg_title": "",
+        "cg_slug": "broshi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "broshi/"
+      },
+      "fr": {
+        "id": 1,
+        "cg_name": "Broches",
+        "cg_description": "Catégorie générale des broches.",
+        "cg_title": "",
+        "cg_slug": "broshi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "broches/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": [],
+    "childs": [
+      {
+        "id": 10,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": null,
+        "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/broshi_gari.jpg",
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": 79,
+        "product_rep_2_id": 89,
+        "c_views": 4,
+        "og": [
+          {
+            "id": 1,
+            "cat_id": 10,
+            "og_property_name": "og key",
+            "locale": {
+              "en": {},
+              "ru": {
+                "og_content_value": "og value"
+              },
+              "fr": {}
+            }
+          }
+        ],
+        "twitter": [
+          {
+            "id": 1,
+            "cat_id": 10,
+            "extra_meta_name": "twitter key",
+            "locale": {
+              "en": {},
+              "ru": {
+                "extra_meta_content": "twitter value"
+              },
+              "fr": {}
+            }
+          }
+        ],
+        "locale": {
+          "en": {
+            "id": 10,
+            "cg_name": "Harry Potter",
+            "cg_description": "Brooches based on Harry Potter works.",
+            "cg_title": "",
+            "cg_slug": "garri-potter",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "brooches/harry-potter/"
+          },
+          "ru": {
+            "id": 10,
+            "cg_name": "Гарри поттер",
+            "cg_description": "броши на основе произведений гарри поттера",
+            "cg_title": "",
+            "cg_slug": "garri-potter",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broshi/garri-potter/"
+          },
+          "fr": {
+            "id": 10,
+            "cg_name": "Harry Potter",
+            "cg_description": "broches basées sur les œuvres de Harry Potter",
+            "cg_title": "",
+            "cg_slug": "garri-potter",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broches/harry-potter/"
+          }
+        },
+        "path_to_top": [
+          1
+        ]
+      },
+      {
+        "id": 11,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/cvety.jpg",
+        "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/cvety.jpg",
+        "separate_menu": false,
+        "c_images": 2,
+        "product_rep_1_id": 60,
+        "product_rep_2_id": 30,
+        "c_views": 5,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "id": 11,
+            "cg_name": "Flowers",
+            "cg_description": "brooches flowers",
+            "cg_title": "",
+            "cg_slug": "tsvetyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "brooches/flowers/"
+          },
+          "ru": {
+            "id": 11,
+            "cg_name": "Цветы",
+            "cg_description": "броши цветы",
+            "cg_title": "",
+            "cg_slug": "tsvetyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broshi/tsvetyi/"
+          },
+          "fr": {
+            "id": 11,
+            "cg_name": "Fleurs",
+            "cg_description": "broches fleurs",
+            "cg_title": "",
+            "cg_slug": "tsvetyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broches/fleurs/"
+          }
+        },
+        "path_to_top": [
+          1
+        ]
+      },
+      {
+        "id": 12,
+        "depth": 2,
+        "numchild": 2,
+        "category_image": null,
+        "logo_image": null,
+        "menu_image": null,
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": null,
+        "product_rep_2_id": null,
+        "c_views": 1,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "id": 20,
+            "cg_name": "The architecture is very very beautiful so it’s long. one two",
+            "cg_description": "Based on architecture",
+            "cg_title": "",
+            "cg_slug": "english-name-architectura",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "brooches/the-architecture-is-very-very-beautiful-so-it-is-longone-two/"
+          },
+          "ru": {
+            "id": 12,
+            "cg_name": "Архитектура очень очень красивая поэтому длинная.один два",
+            "cg_description": "На основе архитектуры",
+            "cg_title": "",
+            "cg_slug": "arhitektura-ochen-ochen-krasivaya-poetomu-dlinnayaodin-dva",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broshi/arhitektura-ochen-ochen-krasivaya-poetomu-dlinnayaodin-dva/"
+          },
+          "fr": {
+            "id": 12,
+            "cg_name": "L’architecture est très très belle donc c’est long un deux.",
+            "cg_description": "Basé sur l'architecture",
+            "cg_title": "",
+            "cg_slug": "arhitektura-ochen-ochen-krasivaya-poetomu-dlinnayaodin-dva",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "broshi/l%27architecture-est-tr%C3%A8s-tr%C3%A8s-belle-donc-c%27est-longun-deux/"
+          }
+        },
+        "path_to_top": [
+          1
+        ],
+        "childs": [
+          {
+            "id": 18,
+            "depth": 3,
+            "numchild": 0,
+            "category_image": null,
+            "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/1.jpg",
+            "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/1.jpg",
+            "separate_menu": false,
+            "c_images": 0,
+            "product_rep_1_id": 4,
+            "product_rep_2_id": 1,
+            "c_views": 1,
+            "og": null,
+            "twitter": null,
+            "locale": {
+              "en": {
+                "id": 19,
+                "cg_name": "St. Petersburg name is long1s",
+                "cg_description": "",
+                "cg_title": "",
+                "cg_slug": "sankt-peterburg-nazvanie-dlinnoe",
+                "meta_description": "",
+                "meta_keywords": "",
+                "link": "broshi/the-architecture-is-very-very-beautiful-so-it-is-longone-two/st-petersburg-name-is-long/"
+              },
+              "ru": {
+                "id": 19,
+                "cg_name": "Санкт петербург название длинное1s",
+                "cg_description": "",
+                "cg_title": "",
+                "cg_slug": "sankt-peterburg-nazvanie-dlinnoe",
+                "meta_description": "",
+                "meta_keywords": "",
+                "link": "broshi/arhitektura-ochen-ochen-krasivaya-poetomu-dlinnayaodin-dva/sankt-peterburg-nazvanie-dlinnoe/"
+              },
+              "fr": {
+                "id": 19,
+                "cg_name": "Le nom de Saint-Pétersbourg est long1s",
+                "cg_description": "",
+                "cg_title": "",
+                "cg_slug": "sankt-peterburg-nazvanie-dlinnoe",
+                "meta_description": "",
+                "meta_keywords": "",
+                "link": "broshi/l%27architecture-est-tr%C3%A8s-tr%C3%A8s-belle-donc-c%27est-longun-deux/le-nom-de-saint-p%C3%A9tersbourg-est-long/"
+              }
+            },
+            "path_to_top": [
+              12,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "depth": 1,
+    "numchild": 1,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/logo_podveski.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/podvseki.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/podveska.jpg",
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": 318,
+    "product_rep_2_id": 283,
+    "c_views": 12,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 2,
+        "cg_name": "Pendants",
+        "cg_description": "Pendants main discription",
+        "cg_title": "",
+        "cg_slug": "podveski",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "pendants/"
+      },
+      "ru": {
+        "id": 2,
+        "cg_name": "Подвески",
+        "cg_description": "Подвески главное описание",
+        "cg_title": "",
+        "cg_slug": "podveski",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "podveski/"
+      },
+      "fr": {
+        "id": 2,
+        "cg_name": "Pendentifs",
+        "cg_description": "Description principale des pendentifs",
+        "cg_title": "",
+        "cg_slug": "podveski",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "pendentifs/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": [],
+    "childs": [
+      {
+        "id": 4,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/kuloni.png",
+        "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/podveska_kuloni.jpg",
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": null,
+        "product_rep_2_id": null,
+        "c_views": 512,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "cg_name": "Pendants",
+            "cg_description": "Pendants main discription",
+            "cg_title": "",
+            "cg_slug": "kulonyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "pendants/pendants/"
+          },
+          "ru": {
+            "id": 4,
+            "cg_name": "Кулоны",
+            "cg_description": "Кулоны описание",
+            "cg_title": "",
+            "cg_slug": "kulonyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "podveski/kulonyi/"
+          },
+          "fr": {
+            "id": 4,
+            "cg_name": "Pendentifs",
+            "cg_description": "Description des pendentifs",
+            "cg_title": "",
+            "cg_slug": "kulonyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "pendentifs/pendentifs/"
+          }
+        },
+        "path_to_top": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "depth": 1,
+    "numchild": 1,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/logo_choker.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/chokery.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/choker.jpg",
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": 311,
+    "product_rep_2_id": null,
+    "c_views": 4,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 18,
+        "cg_name": "Chokers and necklaces extend the name to a very long one",
+        "cg_description": "Chokers and necklaces description",
+        "cg_title": "",
+        "cg_slug": "chokery-i-kolye",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "chokers-and-necklaces/"
+      },
+      "ru": {
+        "id": 3,
+        "cg_name": "Чокеры и колье удлиняем название до сильно длиного",
+        "cg_description": "Чокеры и колье описание",
+        "cg_title": "",
+        "cg_slug": "chokeryi-i-kole",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "chokeryi-i-kole/"
+      },
+      "fr": {
+        "id": 3,
+        "cg_name": "Les ras-de-cou et les colliers étendent le nom à un nom très long",
+        "cg_description": "Description des ras de cou et colliers",
+        "cg_title": "",
+        "cg_slug": "chokeryi-i-kole",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "sautoirs-et-colliers/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": [],
+    "childs": [
+      {
+        "id": 16,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": null,
+        "menu_image": null,
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": null,
+        "product_rep_2_id": null,
+        "c_views": 1,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "id": 16,
+            "cg_name": "Beaded strands.",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "bisernyie-zhgutyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "chokers-and-necklaces/beaded-strands/"
+          },
+          "ru": {
+            "id": 16,
+            "cg_name": "Бисерные жгуты.",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "bisernyie-zhgutyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "chokeryi-i-kole/bisernyie-zhgutyi/"
+          },
+          "fr": {
+            "id": 16,
+            "cg_name": "Brins de perles.",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "bisernyie-zhgutyi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "sautoirs-et-colliers/brins-de-perles/"
+          }
+        },
+        "path_to_top": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "depth": 1,
+    "numchild": 0,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/image_109.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/obodki.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/obodok.jpg",
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": null,
+    "product_rep_2_id": null,
+    "c_views": 21,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 5,
+        "cg_name": "Headbands",
+        "cg_description": "Headbands description",
+        "cg_title": "",
+        "cg_slug": "obodki",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "headbands/"
+      },
+      "ru": {
+        "id": 5,
+        "cg_name": "Ободки",
+        "cg_description": "Ободки описание",
+        "cg_title": "",
+        "cg_slug": "obodki",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "obodki/"
+      },
+      "fr": {
+        "id": 5,
+        "cg_name": "Bandeaux",
+        "cg_description": "Description des bandeaux",
+        "cg_title": "",
+        "cg_slug": "obodki",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "bandeaux/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": []
+  },
+  {
+    "id": 6,
+    "depth": 1,
+    "numchild": 0,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/logo_klipsy.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/clipsi.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/mono.jpg",
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": null,
+    "product_rep_2_id": null,
+    "c_views": 5,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 6,
+        "cg_name": "Monoclips",
+        "cg_description": "monoclips description",
+        "cg_title": "",
+        "cg_slug": "monoklipsyi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "monoclips/"
+      },
+      "ru": {
+        "id": 6,
+        "cg_name": "Моноклипсы",
+        "cg_description": "моноклипсы описание",
+        "cg_title": "",
+        "cg_slug": "monoklipsyi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "monoklipsyi/"
+      },
+      "fr": {
+        "id": 6,
+        "cg_name": "Monoclips",
+        "cg_description": "description des monoclips",
+        "cg_title": "",
+        "cg_slug": "monoklipsyi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "monoclips/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": []
+  },
+  {
+    "id": 7,
+    "depth": 1,
+    "numchild": 3,
+    "category_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/category/logo_sergy.png",
+    "logo_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/logo/sergy.png",
+    "menu_image": "https://helloworldbackey.storage.yandexcloud.net/catalog/menu/cergy.jpg",
+    "separate_menu": true,
+    "c_images": 0,
+    "product_rep_1_id": null,
+    "product_rep_2_id": null,
+    "c_views": 12,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 7,
+        "cg_name": "Earrings",
+        "cg_description": "Earrings description",
+        "cg_title": "",
+        "cg_slug": "sergi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "earrings/"
+      },
+      "ru": {
+        "id": 7,
+        "cg_name": "Серьги",
+        "cg_description": "Серьги описание",
+        "cg_title": "",
+        "cg_slug": "sergi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "sergi/"
+      },
+      "fr": {
+        "id": 7,
+        "cg_name": "Boucles d'oreilles",
+        "cg_description": "Description des boucles d'oreilles",
+        "cg_title": "",
+        "cg_slug": "sergi",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "boucles-d%27oreilles/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": [],
+    "childs": [
+      {
+        "id": 13,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": null,
+        "menu_image": null,
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": null,
+        "product_rep_2_id": null,
+        "c_views": 3,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "id": 13,
+            "cg_name": "Paired earrings",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "parnyie-sergi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "earrings/pair-earrings/"
+          },
+          "ru": {
+            "id": 13,
+            "cg_name": "Парные серьги",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "parnyie-sergi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "sergi/parnyie-sergi/"
+          },
+          "fr": {
+            "id": 13,
+            "cg_name": "Boucles d'oreilles jumelées",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "parnyie-sergi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "boucles-d%27oreilles/paire-de-boucles-d%27oreilles/"
+          }
+        },
+        "path_to_top": [
+          7
+        ]
+      },
+      {
+        "id": 14,
+        "depth": 2,
+        "numchild": 0,
+        "category_image": null,
+        "logo_image": null,
+        "menu_image": null,
+        "separate_menu": false,
+        "c_images": 0,
+        "product_rep_1_id": 300,
+        "product_rep_2_id": null,
+        "c_views": 2,
+        "og": null,
+        "twitter": null,
+        "locale": {
+          "en": {
+            "id": 14,
+            "cg_name": "Transformable earrings",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "sergi-transformeryi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "earrings/transformable-earrings/"
+          },
+          "ru": {
+            "id": 14,
+            "cg_name": "Серьги трансформеры",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "sergi-transformeryi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "sergi/sergi-transformeryi/"
+          },
+          "fr": {
+            "id": 14,
+            "cg_name": "Boucles d'oreilles transformables",
+            "cg_description": "",
+            "cg_title": "",
+            "cg_slug": "sergi-transformeryi",
+            "meta_description": "",
+            "meta_keywords": "",
+            "link": "boucles-d%27oreilles/boucles-d%27oreilles-transformables/"
+          }
+        },
+        "path_to_top": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "depth": 1,
+    "numchild": 0,
+    "category_image": null,
+    "logo_image": null,
+    "menu_image": null,
+    "separate_menu": false,
+    "c_images": 0,
+    "product_rep_1_id": null,
+    "product_rep_2_id": null,
+    "c_views": 12,
+    "og": null,
+    "twitter": null,
+    "locale": {
+      "en": {
+        "id": 8,
+        "cg_name": "Uncategorized",
+        "cg_description": "No description category",
+        "cg_title": "",
+        "cg_slug": "bez-kategorii",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "uncategorized/"
+      },
+      "ru": {
+        "id": 8,
+        "cg_name": "Без категории",
+        "cg_description": "Без категории описания",
+        "cg_title": "",
+        "cg_slug": "bez-kategorii",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "bez-kategorii/"
+      },
+      "fr": {
+        "id": 8,
+        "cg_name": "Non classé",
+        "cg_description": "Aucune catégorie de description",
+        "cg_title": "",
+        "cg_slug": "bez-kategorii",
+        "meta_description": "",
+        "meta_keywords": "",
+        "link": "non-class%C3%A9/"
+      }
+    },
+    "search_target": true,
+    "path_to_top": []
+  }
+]
