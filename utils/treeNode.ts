@@ -15,17 +15,38 @@ export function getTranslation(
 export function getBreadcrumbs(
   node: Category,
   name: string,
-  lang: string
+  lang: string,
+  trees: Category[]
 ): string {
-  let path: string[] = [];
-  let currentNode: Category = node;
+  return node.path_to_top
+    .map((id: number) => {
+      const category = findCategoryById(id, trees);
+      return getTranslation(category, name, lang);
+    })
+    .join(" -> ");
+}
 
-  while (currentNode) {
-    path.unshift(getTranslation(currentNode, name, lang));
-    currentNode = currentNode.parent;
+export function findCategoryById(id: number, trees: Category[]): Category | null {
+  for (let tree of trees) {
+    if (tree.id === id) {
+      return tree;
+    }
+    if (tree.childs) {
+      for (let child of tree.childs) {
+        if (child.id === id) {
+          return child;
+        }
+        if (child.childs) {
+          for (let grandchild of child.childs) {
+            if (grandchild.id === id) {
+              return grandchild;
+            }
+          }
+        }
+      }
+    }
   }
-
-  return path.join(" -> ");
+  return null;
 }
 
 export function getLink(node: Category, lang: string): string {

@@ -10,7 +10,7 @@
         {{ getTranslation(tree, "cg_name", props.currentLanguage) }}
       </h3>
       <p class="text-gray-400 pb-3">
-        {{ getBreadcrumbs(tree, "cg_name", props.currentLanguage) }}
+        {{ getBreadcrumbs(tree, "cg_name", props.currentLanguage, trees) }}
       </p>
 
       <a
@@ -33,7 +33,7 @@
           </h4>
 
           <p class="text-gray-400 pb-3">
-            {{ getBreadcrumbs(child, "cg_name", props.currentLanguage) }}
+            {{ getBreadcrumbs(child, "cg_name", props.currentLanguage, trees) }}
           </p>
 
           <a
@@ -58,7 +58,12 @@
 
               <p class="text-gray-400 pb-3">
                 {{
-                  getBreadcrumbs(grandchild, "cg_name", props.currentLanguage)
+                  getBreadcrumbs(
+                    grandchild,
+                    "cg_name",
+                    props.currentLanguage,
+                    trees
+                  )
                 }}
               </p>
 
@@ -82,7 +87,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, defineProps } from "vue";
 import { dataFetch } from "~/helpers/api";
-import { getTranslation, getBreadcrumbs, getLink } from "~/utils/treeNode";
+import {
+  getTranslation,
+  getBreadcrumbs,
+  findCategoryById,
+  getLink,
+} from "~/utils/treeNode";
 import { Category, Locale } from "~/types/TreeNode";
 import { Language } from "~/types/Language";
 import { Props } from "~/types/PropsTreeNode";
@@ -104,13 +114,15 @@ onMounted(async () => {
 
   if (trees.value) {
     trees.value.forEach((tree: Category): void => {
-      parentMap[tree.id] = null;
+      tree.path_to_top = [tree.id];
       if (tree.childs) {
         tree.childs.forEach((child: Category): void => {
           parentMap[child.id] = tree;
+          child.path_to_top = [...tree.path_to_top, child.id];
           if (child.childs) {
             child.childs.forEach((grandchild: Category): void => {
               parentMap[grandchild.id] = child;
+              grandchild.path_to_top = [...child.path_to_top, grandchild.id];
             });
           }
         });

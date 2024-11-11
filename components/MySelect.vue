@@ -20,7 +20,7 @@
 import { ref, defineEmits } from "vue";
 import MyIcons from "~/UI/icons/MyIcons.vue";
 
-const languages: string[] = ["en", "ru", "fr"];
+const languages: string[] = ["en", "ru", "fr", "1"];
 const selectedLang = ref<string>("en");
 
 const emit = defineEmits<{
