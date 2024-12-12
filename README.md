@@ -1,1 +1,1 @@
-Дерево данных с возможностью раскрытия узлов, с хлебными крошками и переключением языка через select.
+A data tree with the ability to expand nodes, with breadcrumbs and language switching via select.
